@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.alignment {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: rgb(231, 195, 36);
+  width: 100%;
+  height: 40px;
+}
+
+.hBar {
+  background-color: rgb(244, 244, 244);
+  width: 27%;
+  padding-top: 70px;
+  left: 4%;
+  top: 0;
+  position: absolute;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+}
+
+.myName {
+  font-size: 1.4rem;
+  left: inherit;
+  font-size: 2.53vw;
+}
+
+.myName h1 {
+  font-weight: 250;
+  letter-spacing: 0.3em;
+}
+
+.myName h2 {
+  font-weight: 500;
+  font-size: 5.2vw;
+  letter-spacing: 0.3em;
+}
+
+.container-details {
+  position: relative;
+  margin-left: 1.3vw;
+  margin-bottom: 22%;
+}
+
+h3 {
+  font-weight: 550;
+  font-size: 1.8vw;
+  letter-spacing: 0.3em;
+}
+.line {
+  background-color: black;
+  width: 5.6vw;
+  height: 0.06rem;
+  margin: 0vh 0px 0px 0vw;
+}
+
+.full {
+  width: 100%;
+  height: 0.08rem;
+  margin-bottom: 10px;
+}
+
+.links {
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.2vw;
+  margin: 0.7em 0px 0px 2em;
+}
+
+.links li::marker {
+  color: rgb(231, 195, 36);
+}
+
+.links a {
+  text-decoration: underline;
+  color: black;
+}
+
+.plain {
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 1.1vw;
+  margin: 0.7em 0px 0px 1em;
+  line-height: 1.5;
+}
+
+.plain h4 {
+  font-size: 1.4vw;
+}
+
+.plain ul {
+  margin-left: 1rem;
+}
+
+.inline {
+  display: inline-flex;
+  padding-right: 1px;
+  width: 13em;
+  justify-content: space-between;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bar {
+  height: 0.2rem;
+  width: 17.9vw;
+  background-color: gray;
+  margin-left: 0.4rem;
+  margin-top: 0.2rem;
+  border-radius: 50px;
+}
+
+.bar1 {
+  height: 0.2rem;
+  width: calc(17.9vw * 0.7);
+  margin-left: 0.4rem;
+  margin-top: 0.2rem;
+  border-radius: 50px;
+  background-color: yellow;
+  position: relative;
+  top: -0.4rem;
+}
+
+.caption {
+  margin-top: -0.4rem;
+  font-size: 0.8vw;
+  margin-left: 0.4rem;
+}
+
+.biodata {
+  height: 100%;
+  max-width: 65vw;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: calc(100vw - 65vw);
+  padding: 17vw 0vw 0 0vw;
+}
+
+.about-me {
+  margin: 0.7em 0px 4em 5em;
+}
+
+.bio {
+  font-size: 1.5vw;
+  margin: 0.7em 0px 0px 2.5em;
+}
+
+.skills {
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
+  max-width: 36vw;
+}
+
+footer {
+  background-color: rgb(231, 195, 36);
+  width: 100%;
+  height: 40px;
+  z-index: 2;
+}
