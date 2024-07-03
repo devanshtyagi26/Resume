@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="popup alignment" id="hide">
+      <p>This Resume is created by Devansh Tyagi</p>
+      <p>Using only HTML & CSS</p>
+      <button type="button" class="btn" onclick="myFunction()">
+        View Resume
+      </button>
+    </div>
     <header></header>
     <main>
       <div class="alignment">
@@ -177,5 +184,11 @@
       </div>
     </main>
     <footer></footer>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("hide");
+        x.style.display = "none";
+      }
+    </script>
   </body>
 </html>
